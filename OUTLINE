@@ -1,0 +1,39 @@
+# topics:
+
+* SML/NJ; smlnj.org
+
+* resources (links on website):
+  ** SML Basis Library documentation (also see
+     https://github.com/SMLFamily/BasisLibrary/wiki)
+  ** SML/NJ Library documentation (https://smlnj.org/doc/smlnj-lib)
+  ** CM and LPT manuals
+
+* core language features
+  ** basic expressions:
+       *** alphanumeric and symbolic identifiers
+       *** function application syntax (left associative)
+       *** "let val" with simple patterns
+  ** basic types: int (different sizes), word, bool, char, string, unit
+  ** basic type constructors: ->, *, records
+  ** datatypes
+  ** pattern matching: "as" patterns, "_"
+  ** val/fun bindings with complicated patterns
+  ** use of "and" to connect mutually recursive definitions (datatypes and functions)
+  ** higher-order programming: scope, closures
+  ** exceptions: raise, handle; tracing exceptions; "Fail", "Bind", and "Match"
+  ** references
+  ** some useful Basis Library functions:
+       *** String.concat, String.concatWith, and String.concatWithMap
+       *** List.map, List.foldl, List.foldr, List.app, List.all, List.exists
+
+* debugging type errors (add type constraints)
+
+* use exceptions for place holders in incomplete code
+
+* Modules
+* CM (see foo.sml and sources.cm)
+* ml-build
+
+* SML/NJ Library
+  ** ORD_MAP
+  ** ORD_SET
